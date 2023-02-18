@@ -2,14 +2,15 @@
 #include <stdlib.h>
 
 /**
- * main - returns alphabets
- *
+ * main - Entry point
+ *Description: prints alphabet in lowercase\n
  * Returns: Always 0 (Success)
  */
 int main(void)
 {
 	int ch = 'a';
-	while (ch <= 'Z')
+	while (ch <= 'Z'
+			)
 	{
 		putchar (ch);
 		ch++;
